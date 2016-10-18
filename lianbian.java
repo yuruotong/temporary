@@ -19,7 +19,7 @@ class Remove{
           {  
              /*满足文件和指定的后缀时输出*/  
            //  if(fList[i].isFile()&&fList[i].getName().endsWith(fileType)) 
-        	 if(fList[i].isFile()&&fList[i].getName()!="我的电脑"&&fList[i].getName()!="回收站"&&fList[i].getName()!="临时文件") 
+        	 if(!fList[i].getName().equals("一键整理.jar")&&!fList[i].getName().equals("回收站")&&!fList[i].getName().equals("临时文件")) 
         	 
               {  
             	 	//new一个新文件夹
